@@ -3,3 +3,62 @@
     max-width: 600px;
     position: relative;
 }
+
+.contatoCampo-label:before{
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #fff;
+    transform: translate(-7px, -3px);
+    border:1px solid #7D7D7D;
+    color: transparent;
+    line-height:1 ;
+    transition: .2s ease-in;
+}
+
+.contatoCampo-checkbox:checked + .contatoCampo-label:before {
+    content: 'x';
+    color: #fff;
+    background-image: radial-gradient(circle, #2DA4E7, #2F80ED);
+}
+
+.contatoCampo-checkbox {
+    /* display:none;*/
+    /*visibility:hidder*/
+    left: -9999em;
+    position: absolute;
+    opacity: 0;
+}
+
+.contatoCampo-icone {
+    position: absolute;
+    left: -2em;
+    top: 2.5em;
+    width: 1.5em;
+}
+
+.contatoCampo label,
+.contatoCampo input,:not([type= 'checkbox' ]),
+.contatoCampo textarea {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.contatoCampo-label {
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+.contatoCampo input,
+.contatoCampo textarea {
+    font-size: 1em;
+    padding: .5em;
+    min-height: 50px;
+    border-radius: 8px;
+    border: 2px solid #CCC;
+    outline: 0;
+}
