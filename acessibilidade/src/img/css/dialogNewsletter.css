@@ -124,7 +124,7 @@
     cursor: pointer;
 }
 
-@media (min-windt: 830px){
+@media (min-windth: 830px){
 
     .dialogNewsletter-body {
         width: 533px;
