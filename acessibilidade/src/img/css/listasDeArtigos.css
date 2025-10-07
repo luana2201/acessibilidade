@@ -1,0 +1,51 @@
+.listaDeArtigos-artigo {
+    text-align: left;
+    padding-bottom: 2em;
+    max-width: 815px;
+    display: inline-block;
+    white-space: normal;
+}
+
+.listaDeArtigos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.listaDeArtigos-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: none;
+}
+
+.listaDeArtigos-item:not(:target):first-child {
+    display: inline-block;
+}
+
+.listaDeArtigos-item:target {
+    display: inline-block;
+}
+
+.listaDeArtigos-artigo-img {
+    width: 100%;
+    display: block;
+}
+
+/*apenas para diferenciar as imagens*/
+
+.listaDeArtigos-item:nth-of-type(2) img {
+     filter: sepia(.7);
+}
+
+.listaDeArtigos-item:nth-of-type(3) img {
+    filter: hue-rotate(10deg) saturate(1);
+}
+
+.listaDeArtigos-artigo-titulo {
+    font-family: 'Montserrat', sans-serif;
+    margin: .7em 0;
+    font-size: 1.2em;
+}
+
+
