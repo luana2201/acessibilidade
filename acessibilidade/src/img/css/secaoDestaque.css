@@ -1,0 +1,12 @@
+
+.secaoDestaque {
+    text-align: center;
+    background-size: cover;
+    background-color: #00161c;
+    padding: 10em 2em 3em 2em;
+    color: #fff;
+}
+
+.secaoDestaque-titulo {
+    font-weight: bold;
+}
