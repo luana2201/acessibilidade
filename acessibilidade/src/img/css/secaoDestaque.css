@@ -10,5 +10,23 @@
 .secaoDestaque-titulo {
     font-weight: bold;
     margin-bottom: 1em;
-    
+    font-family: 'Montserrat', serif;
+    font-size: 2em;
+    font-weight: 1;
+}
+
+.secaoDestaque-texto {
+    max-width: 600px;
+    margin: 0 auto 2 auto;
+    font-size: 1.25em ;
+    font-weight: normal;
+}
+
+.secaoDestaque-cta {
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 1em;
+    width: 100%;
+    margin: 300px;
+    line-height: 2.5;
 }
