@@ -33,3 +33,28 @@
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.secaoDestaques-destaque-img {
+    width: 100%;
+    display: block;
+}
+
+.secaoDestaques-form label {
+    display: inline-block;
+}
+
+.secaoDestaques-form-botao {
+    max-width: 20em;
+    margin-top: 1em;
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    color: #B72E2E;
+    border: 1px solid #B72E2E;
+}
+
+.secaoDestaques-form-botao:hover,
+.secaoDestaques-form-botao:focus {
+    color: #fff;
+    background-color: #B72E2E;
+}
