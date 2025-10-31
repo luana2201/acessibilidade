@@ -1,0 +1,25 @@
+
+.escondeVisualmente {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+li[aria-hidden='true'] {display: none;}
+li[aria-hidden='false'] {display: block;}
+
+.overlayDialog:before {
+   content: '';
+   background-color: rgba(0, 0, 0, .4);
+   position: fixed;
+   z-index: 2;
+   display: block;
+   width: 100vw;
+   height: 100vh;
+}
+
