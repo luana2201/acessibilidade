@@ -1,0 +1,43 @@
+
+.secaoSobre {
+    color: #4f4c4c;
+}
+
+.secaoSobre-texto {
+    margin-bottom: 1em;
+}
+
+.secaoSobre-plataformas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.secaoSobre-imgDestaque {
+    display: none;
+}
+
+
+@media (min-width: 830px) {
+
+    .secaoSobre {
+        text-align: left;
+    }
+
+    .secaoSobre-titulo {
+        text-align: left;
+    }
+
+    .secaoSobre-imgDestaque {
+        display: block;
+        float: right;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+
+    .secaoSobre-plataformas {
+        display: block;
+        padding-top: 1.5em;
+        position: relative;
+    }
+}
