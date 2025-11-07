@@ -12,4 +12,4 @@ btns.forEach(function(btn) {
 
         this.classList.add('listaDeartigo-slider-item--ativo')
     })
-}
+})
