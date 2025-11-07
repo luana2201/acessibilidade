@@ -7,7 +7,7 @@ btns.forEach(function(btn) {
 
         //Remover class 'ativo' dos outros botoes
         btns.forEach(function(btnRemoveClass) {
-            btnRemoveClass.classList.remove('listyaDeArtigos-slider-item-ativo')
+            btnRemoveClass.classList.remove('listyaDeArtigos-slider-item--ativo')
         })
 
         this.classList.add('listaDeartigo-slider-item--ativo')
