@@ -2,7 +2,7 @@ var btns = document.querySelectorAll('.listaDeArtigo-slider-item');
 
 //percorrer todos os botoes controladores
 btns.forEach(function(btn) {
-    btn.addEventListener('click', function()) {
+    btn.addEventListener('click', function(){
 
 
         //Remover class 'ativo' dos outros botoes
